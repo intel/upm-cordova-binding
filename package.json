@@ -1,8 +1,10 @@
 {
   "name": "upm-cordova-binding",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "UPM Cordova Binding",
-  "bin": {"upm-cordova-binding": "./bin/upm-cordova-binding"},
+  "bin": {
+    "upm-cordova-binding": "./bin/upm-cordova-binding"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sunlin-link/upm-cordova-binding.git"
