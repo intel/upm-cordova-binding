@@ -32,7 +32,7 @@ var generatePlugin = function (sourceDir, targetDir, sourceVersion) {
                     line = line.substring(7);
 
                     if (line.indexOf("class") == 0 || line.indexOf("synchronized") == 0 ||
-                        line.indexOf("final") == 0 || line.indexOf("static") == 0) {
+                        line.indexOf("final") == 0 || line.indexOf("static") == 0 || line.indexOf("interface") == 0) {
                         return;
                     }
 
